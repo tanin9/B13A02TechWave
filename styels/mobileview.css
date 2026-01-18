@@ -1,0 +1,16 @@
+@media (max-width: 576px) {
+  /* Mobile styles */
+  
+ .footer-card-container {
+ 
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+
+}
+}
+
+/* Medium devices (577px to 992px) - Optional */
+@media (min-width: 577px) and (max-width: 992px) {
+  /* Tablet styles */
+  
+}

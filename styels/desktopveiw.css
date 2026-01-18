@@ -1,0 +1,105 @@
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+* {
+  max-width: 1600px;
+  margin: 0 auto;
+
+  font-family: "Inter";
+}
+.heading-text {
+  font-size: 3.75rem;
+  font-weight: 900;
+  color: #ffffff;
+}
+.heading2-text {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+.heading3-text {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+.regular-text {
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+/* meet section */
+
+.meet-container {
+  display: flex;
+  flex-direction: column;
+}
+.meeting-head {
+  margin-bottom: 40px;
+}
+
+.meeting-card {
+  background-color: #351165;
+  margin: 120px 200px;
+  padding: 40px;
+  gap: 24px;
+  border-radius: 40px;
+  display: flex;
+}
+
+.meeting-description p {
+  margin-bottom: 16px;
+}
+
+.meet-card-images{
+    display: flex;
+}
+.meet-card-image{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+     display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* footer */
+
+#wave {
+  background: linear-gradient(
+    to top,
+    rgba(247, 233, 63, 1),
+    rgba(251, 9, 180, 1),
+    rgba(145, 0, 248, 1)
+  );
+  background-clip: text;
+  color: transparent;
+}
+.footer-container {
+  background-image: url("/images/footer-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer-card {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.footer-card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-bottom: 32px;
+}
+
+.footer-container .heading-text {
+  margin-bottom: 32px;
+}
