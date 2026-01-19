@@ -55,6 +55,17 @@ hr{
 }
 
 
+/* About section */
+.about-description{
+text-align: center;
+margin: 80px 400px;
+margin-top: 0px;
+}
+.about-description p{
+    line-height: 1.6
+}
+
+
 /* rating card */
 
 .green-heading{
@@ -67,6 +78,7 @@ hr{
 {
   padding: 10px;
   margin: 0 100px;
+  padding-bottom: 80px;
   display: grid;
   grid-template-columns: repeat(4,1fr);
   gap: 40px;

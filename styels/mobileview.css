@@ -42,6 +42,18 @@
     padding: 20px;
 
   }
+hr{
+  margin: 40px 20px;
+  
+}
+.about-description{
+text-align: center;
+margin: 0px auto;
+padding: 20px;
+}
+  .about-container .heading-margin {
+    text-align: center;
+  }
 
 }
 
@@ -62,4 +74,15 @@
     grid-template-columns: repeat(4, auto);
     justify-content: center;
   }
+
+  hr{
+  margin: 40px 40px;
+  
+}
+
+  .about-description{
+text-align: center;
+margin: 0px auto;
+padding: 40px;
+}
 }
