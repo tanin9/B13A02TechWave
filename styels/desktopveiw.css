@@ -24,24 +24,156 @@
   font-weight: 700;
   color: #ffffff;
 }
+.heading4-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+}
 .regular-text {
   color: #ffffff;
   font-size: 1rem;
+  font-weight: 100;
+}
+.green-text {
+  color: #00ff88;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.container-center {
+  display: flex;
+  flex-direction: column;
+}
+.heading-margin {
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+
+hr{
+  margin: 80px 200px;
+  margin-top: 0px;
+}
+
+
+/* rating card */
+
+.green-heading{
+  font-size: 3rem;
+  font-weight: 900;
+  color: #00ff88;
+}
+
+.rating-card-container
+{
+  padding: 10px;
+  margin: 0 100px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 40px;
+}
+.rating-card
+{
+  /* border: 1px solid white; */
+  text-align: center;
+
+}
+
+
+/* TechWave */
+
+.techwave-box
+{
+  margin: 120px 200px;
+  
+}
+
+
+.box1{
+  display: grid;
+  grid-template-columns: repeat(1,1fr 2fr);
+  margin-bottom: 30px;
+}
+.sub-boxchild
+{
+  height: 217px;
+}
+
+.box2{
+  display: grid;
+ grid-template-columns: repeat(1, 2fr 1fr);
+ gap: 30px;
+}
+
+
+
+.techwave-card
+{
+  background-color: #351165;
+  padding: 40px;
+  border-radius: 40px;
+  /* margin: 30px;********************* */
+}
+.techwave-card p
+{
+ margin-top: 16px;
+}
+
+
+/* Featured section */
+
+.featured-card-container
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+
+}
+.featured-card {
+  max-width: 380px;
+  border-radius: 16px;
+}
+
+.featured-card iframe {
+  width: 380px;
+  height: 214px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.featured-card-description {
+  background-color: #351165;
+  margin-top: 0px;
+  padding: 24px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+.featured-card-description p{
+margin-bottom: 12px;
+}
+
+.timer {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: start;
+  gap: 6px;
 }
 
 /* meet section */
-
-.meet-container {
+/* ***************************** */
+/* .meet-container {
   display: flex;
   flex-direction: column;
 }
 .meeting-head {
   margin-bottom: 40px;
-}
+} */
+/* ***************************** */
 
 .meeting-card {
   background-color: #351165;
   margin: 120px 200px;
+  margin-top: 0px;
   padding: 40px;
   gap: 24px;
   border-radius: 40px;
@@ -52,15 +184,18 @@
   margin-bottom: 16px;
 }
 
-.meet-card-images{
-    display: flex;
+.meet-card-images {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: start;
+  gap: 8px;
 }
-.meet-card-image{
-    width: 40px;
-    height: 40px;
-    border: 1px solid #ffffff;
-    border-radius: 50%;
-     display: flex;
+.meet-card-image {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -78,7 +213,7 @@
   color: transparent;
 }
 .footer-container {
-  background-image: url('../images/footer.png');
+  background-image: url("../images/footer.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

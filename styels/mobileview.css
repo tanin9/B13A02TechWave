@@ -1,16 +1,65 @@
 @media (max-width: 576px) {
   /* Mobile styles */
-  
- .footer-card-container {
- 
-  grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
+
+  .footer-card-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  .meet-container {
+    display: flex;
+  }
+  .meeting-card {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .meet-card-images {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .featured-container .heading-margin {
+    text-align: center;
+  }
+
+  .featured-card {
+    max-width: 350px;
+    margin-top: 26px;
+  }
+  .featured-card-description {
+    padding: 14px;
+    max-width: 350px;
+  }
+  .featured-card iframe {
+    width: 350px;
+    height: 214px;
+  }
+
+  .rating-card-container
+  {
+    grid-template-columns: repeat(2,1fr);
+    margin:  auto;
+    padding: 20px;
+
+  }
 
 }
-}
 
-/* Medium devices (577px to 992px) - Optional */
 @media (min-width: 577px) and (max-width: 992px) {
   /* Tablet styles */
-  
+
+  .meet-container {
+    display: flex;
+  }
+  .meeting-card {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .meet-card-images {
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+  }
 }
