@@ -67,6 +67,10 @@
   margin-left: 190px;
 }
 
+.techwave-container
+{
+  /* display: none; */
+}
 @media (min-width: 577px) and (max-width: 992px) {
   /* Tablet styles */
 
