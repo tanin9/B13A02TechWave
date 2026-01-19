@@ -35,26 +35,36 @@
     height: 214px;
   }
 
-  .rating-card-container
-  {
-    grid-template-columns: repeat(2,1fr);
-    margin:  auto;
+  .rating-card-container {
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
     padding: 20px;
-
   }
-hr{
-  margin: 40px 20px;
-  
-}
-.about-description{
-text-align: center;
-margin: 0px auto;
-padding: 20px;
-}
+  hr {
+    margin: 40px 20px;
+  }
+  .about-description {
+    text-align: center;
+    margin: 0px auto;
+    padding: 20px;
+  }
   .about-container .heading-margin {
     text-align: center;
   }
+}
+.banner-container-description {
+  text-align: center;
+}
 
+.banner-image {
+  
+  padding: 30px 60px;
+  
+}
+.new-badge {
+ 
+  margin-top: -200px;
+  margin-left: 190px;
 }
 
 @media (min-width: 577px) and (max-width: 992px) {
@@ -74,15 +84,23 @@ padding: 20px;
     grid-template-columns: repeat(4, auto);
     justify-content: center;
   }
+  .rating-card-container {
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    padding: 20px;
+  }
+  hr {
+    margin: 40px 40px;
+  }
 
-  hr{
-  margin: 40px 40px;
+  .about-description {
+    text-align: center;
+    margin: 0px auto;
+    padding: 40px;
+  }
+  .banner-image {
   
-}
-
-  .about-description{
-text-align: center;
-margin: 0px auto;
-padding: 40px;
+  padding: 30px 60px;
+  
 }
 }
