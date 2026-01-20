@@ -1,7 +1,9 @@
 @media (max-width: 576px) {
   /* Mobile styles */
   nav {
+
     padding: 10px 20px;
+    
   }
   .menu-element {
     display: none;
