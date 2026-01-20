@@ -195,6 +195,7 @@ hr {
 /* --------------rating card------ */
 
 .green-heading {
+
   font-size: 3rem;
   font-weight: 900;
   color: #00ff88;
@@ -246,9 +247,13 @@ hr {
 /* -------Featured section------------- */
 
 .featured-card-container {
-  display:grid;
+  margin: 10px auto;
+  display:flex;
   gap: 30px;
-  grid-template-columns: repeat(3,1fr);
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .featured-card {
   max-width: 380px;
