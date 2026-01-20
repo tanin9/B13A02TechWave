@@ -1,10 +1,16 @@
+*
+{
+  margin: 0;
+}
 body {
   max-width: 1600px;
   margin: 0 auto;
   font-family: "Inter";
+ 
 }
 header {
   background-color: #230e3d;
+  
 }
 .bg-color {
   background-color: #1a0b2e;
@@ -51,6 +57,36 @@ header {
 .heading-margin {
   margin-top: 120px;
   margin-bottom: 40px;
+}
+
+/* navbar */
+
+nav{
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+nav ul{
+  display: flex;
+  gap: 30px;
+}
+nav ul li{
+  list-style-type: none;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.menu
+{
+  display: none;
+}
+.menu i{
+  
+  color: #ffffff;
+  font-size: 35px;
 }
 
 /* banner */
