@@ -125,6 +125,10 @@ nav ul li a{
   background-size: cover;
   padding: 45px 78px;
 }
+.banner-card-element p{
+  margin-top: 20px;
+}
+
 .button {
   display: flex;
   gap: 8px;
